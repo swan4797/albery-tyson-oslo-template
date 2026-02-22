@@ -334,8 +334,8 @@ $color-button-pink-hover: #f0b3ba;
   height: 2.5rem;
   padding: 0 spacing.$spacing-4;
   margin-top: spacing.$spacing-3;
-  background: $color-button-pink;
-  color: colors.$color-text-primary;
+  background: colors.$color-button-primary;
+  color: colors.$color-text-light;
   border: none;
   border-radius: 100px; // Pill shape
   font-family: typography.$font-family-base;
@@ -345,7 +345,7 @@ $color-button-pink-hover: #f0b3ba;
   transition: all $transition-fast;
 
   &:hover:not(:disabled) {
-    background: $color-button-pink-hover;
+    background:  colors.$color-button-secondary;
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(245, 198, 203, 0.4);
   }

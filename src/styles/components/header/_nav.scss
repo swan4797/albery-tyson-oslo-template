@@ -52,7 +52,7 @@ $z-dropdown: 200;
   font-family: typography.$font-family-base;
   font-size: typography.$font-size-sm;
   font-weight: typography.$font-weight-regular;
-  color: colors.$color-text-light;
+  color: colors.$color-text-primary;
   text-decoration: none;
   letter-spacing: 0.01em;
   border-radius: 100px;
@@ -63,7 +63,7 @@ $z-dropdown: 200;
 
   &:hover {
     background: rgba(0, 0, 0, 0.05);
-    color: colors.$color-accent;
+    color: colors.$color-text-primary;
   }
 
   &--dropdown {

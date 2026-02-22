@@ -568,27 +568,27 @@
 
     // Light variant (default)
     &--light {
-      background-color: colors.$color-bg-tertiary;
+      background-color: colors.$color-bg-primary;
 
       .intro-section__stat-value {
-        color: colors.$color-text-primary;
+        color: colors.$color-text-light;
       }
 
       .intro-section__stat-label {
-        color: colors.$color-text-primary;
+        color: colors.$color-text-light;
       }
     }
 
     // Accent variant (green/lime)
     &--accent {
-      background-color: colors.$color-accent;
+      background-color: colors.$color-bg-secondary;
 
       .intro-section__stat-value {
-        color: colors.$color-bg-primary;
+        color: colors.$color-text-light;
       }
 
       .intro-section__stat-label {
-        color: colors.$color-bg-primary;
+        color: colors.$color-text-light;
         opacity: 0.85;
       }
     }

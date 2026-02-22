@@ -72,9 +72,9 @@
     }
 
     &--primary {
-      background: colors.$color-bg-tertiary;
-      color: colors.$color-text-primary;
-      border: 1px solid colors.$color-bg-tertiary;
+      background: colors.$color-bg-primary;
+      color: colors.$color-text-light;
+      border: 1px solid colors.$color-bg-primary;
 
       &:hover {
         background: colors.$color-bg-secondary;
@@ -82,12 +82,12 @@
     }
 
     &--secondary {
-      color: colors.$color-accent;
-      border: 1px solid colors.$color-accent;
+      color: colors.$color-bg-secondary;
+      border: 1px solid colors.$color-bg-secondary;
       background: transparent;
 
       &:hover {
-        background: colors.$color-accent;
+        background: colors.$color-bg-secondary;
         color: colors.$color-text-light;
       }
     }
